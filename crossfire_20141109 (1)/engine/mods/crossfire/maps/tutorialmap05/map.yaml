@@ -1,0 +1,105 @@
+Selectable: False
+
+MapFormat: 6
+
+RequiresMod: crossfire
+
+Title: Tutorial Map 05
+
+Description: A tutorial map for making buildings produce units. You will learn how to make the barracks produce units.\n\nGo to OpenRA Wiki for tutorial.
+
+Author: Umair Azfar Khan
+
+Tileset: TEMPERAT
+
+MapSize: 64,64
+
+Bounds: 16,16,32,32
+
+UseAsShellmap: False
+
+Type: Campaign
+
+Options:
+	Crates: False
+	Fog: True
+	Shroud: True
+	AllyBuildRadius: False
+	FragileAlliances: False
+	StartingCash: 5000
+	ConfigurableStartingUnits: False
+
+Players:
+	PlayerReference@INDIA:
+		Name: INDIA
+		Race: soviet
+		ColorRamp: 135,255,100
+		Enemies: PAKISTAN
+	PlayerReference@Neutral:
+		Name: Neutral
+		OwnsWorld: True
+		NonCombatant: True
+		Race: allies
+	PlayerReference@PAKISTAN:
+		Name: PAKISTAN
+		Playable: True
+		AllowBots: False
+		Required: True
+		LockRace: True
+		Race: allies
+		LockColor: True
+		ColorRamp: 100,255,100
+		LockSpawn: True
+		LockTeam: True
+		Enemies: INDIA
+
+Actors:
+	Outpost: fact
+		Location: 30,30
+		Owner: PAKISTAN
+	Barracks1: barr
+		Location: 34,24
+		Owner: INDIA
+	Barracks2: barr
+		Location: 26,24
+		Owner: INDIA
+	IndiaEntry: waypoint
+		Location: 31,16
+		Owner: Neutral
+	IndiaRally: waypoint
+		Location: 31,27
+		Owner: Neutral
+	PakEntry: waypoint
+		Location: 31,47
+		Owner: Neutral
+	PakRally: waypoint
+		Location: 31,35
+		Owner: Neutral
+
+Smudges:
+
+Rules:
+	Player:
+		-ConquestVictoryConditions:
+		MissionObjectives:
+			EarlyGameOver: true
+	World:
+		-CrateSpawner:
+		-SpawnMPUnits:
+		-MPStartLocations:
+		LuaScript:
+			Scripts: tutorialmap05.lua
+		ObjectivesPanel:
+			PanelName: MISSION_OBJECTIVES	
+
+Sequences:
+
+VoxelSequences:
+
+Weapons:
+
+Voices:
+
+Notifications:
+
+Translations:

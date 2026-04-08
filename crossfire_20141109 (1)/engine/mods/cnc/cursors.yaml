@@ -1,0 +1,181 @@
+﻿Palettes:
+	cursor: cursor.pal
+
+Cursors:
+	mouse2.shp: cursor
+		scroll-t:
+			start:1
+		scroll-tr:
+			start:2
+		scroll-r:
+			start:3
+		scroll-br:
+			start:4
+		scroll-b:
+			start:5
+		scroll-bl:
+			start:6
+		scroll-l:
+			start:7
+		scroll-tl:
+			start:8
+		scroll-t-blocked:
+			start:130
+		scroll-tr-blocked:
+			start:131
+		scroll-r-blocked:
+			start:132
+		scroll-br-blocked:
+			start:133
+		scroll-b-blocked:
+			start:134
+		scroll-bl-blocked:
+			start:135
+		scroll-l-blocked:
+			start:136
+		scroll-tl-blocked:
+			start:137
+		select:
+			start:12
+			length:6
+		default-minimap:
+			start:86
+			length:1
+			x: -16
+			y: -12
+		generic-blocked:
+			start:9
+		generic-blocked-minimap:
+			start:27
+		attack:
+			start:18
+			length:8
+		attack-minimap:
+			start:140
+			length:8
+		harvest:
+			start:18
+			length:8
+		harvest-minimap:
+			start:140
+			length:8
+		enter:
+			start:119
+			length:3
+		enter-minimap:
+			start:148
+			length:3
+		c4:
+			start:122
+			length:3
+		c4-minimap:
+			start:127
+			length:3
+
+# Cursors that need minimap variants
+		deploy:
+			start:53
+			length:9
+		repair:
+			start:29
+			length:24
+		repair-blocked:
+			start:126
+			length:1
+		sell:
+			start:62
+			length:24
+		sell-blocked:
+			start:125
+			length:1
+		ability:
+			start:88
+			length:8
+		nuke:
+			start:96
+			length:7
+		ioncannon:
+			start:103
+			length:16
+		sell-vehicle:
+			start:154
+			length:24
+
+	mouse3.shp: cursor
+		default:
+			start:0
+			x: -16
+			y: -12
+		deploy-blocked:
+			start:1
+			length:1
+
+	mouse4.shp:cursor
+		move:
+			start:0
+			length:8
+		move-minimap:
+			start:8
+			length:4
+		move-rough:
+			start:0
+			length: 8
+		attackmove:
+			start:12
+			length:8
+		attackmove-minimap:
+			start:20
+			length:4
+		move-blocked:
+			start:24
+			length:1
+		move-blocked-minimap:
+			start:25
+			length:1
+
+	mouse5.shp: cursor
+		guard:
+			start:0
+			length:8
+		guard-minimap:
+			start:8
+			length:8
+
+	mouse6.shp: cursor
+		goldwrench:
+			start:0
+			length:3
+		goldwrench-minimap:
+			start:3
+			length:3
+		goldwrench-blocked:
+			start:6
+			length:1
+		goldwrench-blocked-minimap:
+			start:7
+			length:1
+		capture:
+			start:8
+			length:3
+		capture-minimap:
+			start:11
+			length:3
+		capture-blocked:
+			start:14
+			length:1
+		capture-blocked-minimap:
+			start:15
+			length:1
+		enter-blocked:
+			start:16
+			length:1
+		enter-blocked-minimap:
+			start:17
+			length:1
+
+	mouse7.shp: cursor
+		attackoutsiderange:
+			start:0
+			length:8
+		attackoutsiderange-minimap:
+			start:8

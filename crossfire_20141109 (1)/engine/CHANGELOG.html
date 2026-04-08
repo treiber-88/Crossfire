@@ -1,0 +1,193 @@
+<h2>release-20141029</h2>
+
+<p><strong>General Improvements (all mods):</strong></p>
+
+<ul>
+<li>Fixed actors remaining in control groups after they have been captured. [#5991]</li>
+<li>Fixed issues that occur when aircraft are outside the map borders. [#5993]</li>
+<li>Fixed map-placed structures being unsellable. [#6014]</li>
+<li>Fixed buildings being selected when drag-selecting an MCV. [#6052]</li>
+<li>Fixed a glitch that prevented the AI from repairing buildings damaged by support powers. [#6085]</li>
+<li>Fixed Obelisks and Tesla Coils not looking for new targets when the current one goes out of range. [#6127]</li>
+<li>Fixed a glitch that caused idle overlays to display during actor transformations. [#6151]</li>
+<li>Fixed a server glitch that could kick all players when starting a game. [#6271]</li>
+<li>Fixed units killed when surrendering counting towards end game statistics. [#6274]</li>
+<li>Fixed laser zaps being visible under the fog. [#6304]</li>
+<li>Fixed a shroud glitch when the clear and reset shroud cheats were used repeatedly. [#6310]</li>
+<li>Fixed cloaked APCs remaining hidden when they unload passengers. [#6358]</li>
+<li>Fixed several glitches with unit selection for observers. [#6426]</li>
+<li>Fixed issues with paradropped crates landing on units that cannot collect them. [#6437]</li>
+<li>Fixed the beacon placement mode not canceling when right-clicking. [#6506]</li>
+<li>Fixed beacons not being removed when support aircraft have been shot down. [#6505]</li>
+<li>Fixed craters and scorch marks being rendered above resources. [#6323]</li>
+<li>Fixed background color of FMV player. [#6220]</li>
+<li>Fixed the AI using support powers on cloaked units that it cannot see. [#6488]</li>
+<li>Fixed crashes that occurred on maps with a very small cordon. [#6334, #6548, #6550]</li>
+<li>Fixed mine and explosion crate damage. [#6606]</li>
+<li>Fixed units teleporting into transports. [#6528, #6662]</li>
+<li>Fixed transport helicopters ignoring an unload order while they are flying. [#6690]</li>
+<li>Fixed tanks not crushing sandbags, fences etc. when driving over them at certain angles. [#6767]</li>
+<li>Fixed the loss of CTRL+NUMBER control groups when transforming units such as MCVs. [#6765]</li>
+<li>Fixed a crash when double-clicking a replay with an unknown map. [#6800]</li>
+<li>Fixed missing slider thumb button. [#6814]</li>
+<li>Fixed being able to start missions with invalid rules. [#6832]</li>
+<li>Fixed passengers revealing shroud at their original position when exiting from a transport. [#6838]</li>
+<li>Added a flashing effect to actors before they are demolished by C4. [#5904]</li>
+<li>Added notifications when the lobby options are changed. [#6108, #6217, #6446]</li>
+<li>Added configuration settings for the build palette hotkeys. [#6129]</li>
+<li>Added tab completion for player names and console commands to chat widgets. [#6281, #6347]</li>
+<li>Added weapon reload times decreasing and weapon accuracy increasing with rising experience/veterancy. [#6079, #6344, #6510]</li>
+<li>Added checks to prevent players from selecting colors that are too similar to other players or the terrain. [#6239, #6512]</li>
+<li>Added a debug option to show the amount of damage received by actors during attacks. [#6388]</li>
+<li>Added support for pasting text into input fields. [#6441]</li>
+<li>Added a setting to also zoom the mouse cursor when pixel doubling is enabled. [#6266]</li>
+<li>Added a dynamic search field to the map chooser. [#6504, #6676]</li>
+<li>Added a button click sound when operating scrollbars and dismissing drop-down panels. [#6621, #6623]</li>
+<li>Added a simpler tooltip display for single-player missions. [#6613]</li>
+<li>Added a new force-move order for entering transports that will cause units to enter nearby transports if the selected one is already full. [#6528]</li>
+<li>Improved in-game menus. [#6059, #6335, #6360]</li>
+<li>Improved the handling of unresponsive clients, who will now be dropped after 90 seconds without network traffic. [#6546]</li>
+<li>Improved the observer sidebar. [#6737]</li>
+<li>Improved error messages when asset-download connections fail. [#6489]</li>
+<li>Changed replay maximum playback speed. [#5850]</li>
+<li>Changed the download dialog to scale units of measurement. [#6399]</li>
+<li>Changed the default lobby text focus to the chat text field. [#6053]</li>
+<li>Changed turreted units to move their turret to face forward after they have finished attacking. [#6503]</li>
+<li>Changed harvesters to start harvesting when they are built from a factory. [#6634]</li>
+<li>Removed ability to install music while a game is in progress to prevent players getting kicked during installation. [#6150, #6522]</li>
+<li>Removed the ability to record games started from the single-player mission menu to avoid spoilers and crashes due to desyncs. [#6210]</li>
+</ul>
+
+<p><strong>Red Alert</strong></p>
+
+<ul>
+<li>Fixed boats being built at the submarine pen instead of the shipyard and vice versa. [#6035]</li>
+<li>Fixed cloaked units getting detected by chronosphere or iron curtain cursors [#6074]</li>
+<li>Fixed MAD tanks misbehaving with multiple deploy orders [#6094]</li>
+<li>Fixed aircraft flight separation. [#6087]</li>
+<li>Fixed planes taking off on their own when ordered to return to base using hotkeys. [#6160]</li>
+<li>Fixed an exploit where minelayer preview overlays would reveal enemy units under fog. [#6309]</li>
+<li>Fixed the unread news button blinking in a too subtle color. [#6279]</li>
+<li>Fixed a shore line tile having a bogus river terrain definition thus breaking landing crafts. [#6351]</li>
+<li>Fixed only turrets of tanks being drawn on top of the landing craft during unload. [#6428]</li>
+<li>Added a new sidebar [#5972, #6543]</li>
+<li>Added Soviet kennel for training dogs. [#6070]</li>
+<li>Added infantry crushing to the Light Tank, APC, and both Minelayers. [#6123]</li>
+<li>Added tech level prerequisites to certain crates. [#6189]</li>
+<li>Added spy ability: infiltrate power plant to disable power for 30 seconds. [#6202]</li>
+<li>Added chinooks to the desert shellmap. Watch out for something special on Halloween! [#6378]</li>
+<li>Added cloak detection to all defensive buildings. [#6414]</li>
+<li>Added an invulnerability crate. [#6556]</li>
+<li>Added briefing videos to the campaign mission selector. [#6706]</li>
+<li>Added additional sound effects. [#6799]</li>
+<li>Added new and updated multi-player maps. [#6477, #6841]</li>
+<li>Improved single-player mission selection. [#6377, #6379, #6552, #6699, #6722, #6762, #6748]</li>
+<li>Changed planes/helicopters to build from the same production queue. [#6035]</li>
+<li>Changed conquest victory conditions so that support buildings will not need to be destroyed to win. [#6414]</li>
+<li>Changed price (and build time) of Yak and Hind from $1000 to $1350. [#6414]</li>
+<li>Changed Longbow hit points from 150 to 120. [#6414]</li>
+<li>Changed Hind hit points from 150 to 100. [#6414]</li>
+<li>Changed projectile speed of AA gun so it misses less often. [#6414]</li>
+<li>Changed defense queue production bar from sky blue to grey. [#6557]</li>
+<li>Changed demolition trucks to explode when targeted with an Iron Curtain. [#6556]</li>
+<li>Removed Tanya's ability to plant C4 on vehicles. [#6414, #6607]</li>
+<li>Removed the ability to add bots to the Poland Raid and Burlesca maps, where they can have serious performance issues. [#6215]</li>
+<li>Removed a number of maps that had various issues. [#6842]</li>
+</ul>
+
+<p><strong>Tiberian Dawn:</strong></p>
+
+<ul>
+<li>Fixed a map glitch in Sea &amp; Cake. [#6088]</li>
+<li>Fixed Apache's guns being blocked by walls. [#6194]</li>
+<li>Fixed duplicated click sounds when selecting production tabs. [#6321]</li>
+<li>Fixed graphics glitches with the gunboat. [#6772]</li>
+<li>Added statistics dialog for replays and observers. [#6397]</li>
+<li>Added a "Civilian building captured" EVA notification. [#6451]</li>
+<li>Added briefing videos to the campaign mission selector. [#6706]</li>
+<li>Improved single-player mission selection. [#6284, #6306, #6324, #6325, #6326, #6327, #6328, #6699, #6762, #6769, #6835]</li>
+<li>Changed balancing for Flame and Stealth Tanks. [#6009, #6010]</li>
+<li>Changed hitpoints for the Commando unit from 200 to 150. [#6649]</li>
+<li>Changed price for the Recon Bike from $500 to $600. [#6825]</li>
+<li>Changed damage within the hit area for Ion Cannon. [#5941]</li>
+<li>Changed the advanced power plant's footprint to match the original game. [#6230]</li>
+<li>Changed conquest victory conditions so that support buildings will not need to be destroyed to win. [#6414]</li>
+<li>Reduced volume of cash tick sounds. [#6627]</li>
+</ul>
+
+<p><strong>Dune 2000:</strong></p>
+
+<ul>
+<li>Fixed some broken tiles. [#6026]</li>
+<li>Fixed Atreides barracks build animation. [#6042]</li>
+<li>Fixed errors in infantry animations. [#6331, #6371, #6418]</li>
+<li>Added a new Arrakis logo for load screen and mod chooser. [#6091]</li>
+<li>Added tech level prerequisites to certain crates. [#6189]</li>
+<li>Added support for capturable technology. [#5891]</li>
+<li>Added new maps. [#6026, #6844]</li>
+<li>Changed AI unit composition. [#6007]</li>
+<li>Changed ornithopter airstrike. [#6315]</li>
+<li>Changed building footprints for the Palace and Starport. [#6244]</li>
+</ul>
+
+<p><strong>Engine / Modding:</strong></p>
+
+<ul>
+<li>Fixed breaking the select actor hotkeys when the shroud was disabled. [#6098]</li>
+<li>Fixed reporting of wav audio track length. [#6089]</li>
+<li>Fixed compilation errors when using Mono 3.6. [#6313]</li>
+<li>Fixed infantry not unloading into proper subcells. [#6208]</li>
+<li>Fixed missing debug symbols when compiling with an IDE under Unix. [#6392]</li>
+<li>Fixed an OpenAL related crash on Windows 8.1 64-bit edition. [#6513]</li>
+<li>Fixed a crash when using curly braces in player names [#6526]</li>
+<li>Fixed maps with invalid rules not being recognized as such and crashing the game. They will be flagged in the lobby as incompatible instead. [#6788]</li>
+<li>Added more flexibility to Missile logic. [#6471]</li>
+<li>Added much more flexibility to crate rewards. [#5921]</li>
+<li>Added support for an actor upgrade system to allow purchasing unit and building upgrades. [#6110, #6474]</li>
+<li>Added support for selling non-building actors. [#6065]</li>
+<li>Added support for IMA ADPCM audio. [#6173]</li>
+<li>Added support for the C&amp;C Generals .big package format. [#6255]</li>
+<li>Added <code>BuildAtProductionType</code> parameter to restrict production to a specific factory. [#6035]</li>
+<li>Added <code>MaxSpread</code> parameter to warheads for more control over maximum area of damage. [#5941]</li>
+<li>Added <code>ClonesProducedUnits</code> trait that implements the RA2 cloning vat logic. [#5910]</li>
+<li>Added a <code>MovesToShroud</code> property to Mobile, Helicopter, and Plane to prevent move orders into the shroud. [#6022]</li>
+<li>Added a dedicated <code>Power</code> trait for specifying power usage / generation. [#6133]</li>
+<li>Added support for custom warhead types. [#6030]</li>
+<li>Added support for configurable infantry sub-cells in <code>mod.yaml</code>. [#6100]</li>
+<li>Added smarter and more configurable decisions on where the AI should place support powers. [#5867]</li>
+<li>Added diplomatic stance checks to weapons and warheads to control friendly fire. [#6162]</li>
+<li>Added support for FMV (full-motion video) playback to the asset browser. [#6643]</li>
+<li>Added support for mods to add their own sprite format parsers in their mod dll. [#6673]</li>
+<li>Added additional trait documentation. [#5999, #6675, #6681]</li>
+<li>Improved compression of all loose SHPs. [#5997]</li>
+<li>Improved configurability of infantry sequences and explosion effects. [#5973, #6396, #5937]</li>
+<li>Improved support for units dropping crates on death [#6152]</li>
+<li>Improved performance and memory usage. [#5851, #5853, #5985, #6698, #6758]</li>
+<li>Improved the new Lua API. [#6059, #6188, #6201, #6556, #6574, #6598, #6650, #6736, #6762, #6776]</li>
+<li>Changed weapon versus definitions to use integer percentages (50 instead of 50%). [#6265]</li>
+<li>Renamed <code>InfDeath</code> attributes to <code>DeathTypes</code>. [#6372]</li>
+<li>Moved <code>SellSounds</code> from <code>Building</code> to <code>Sellable</code>. [#6362]</li>
+<li>Removed special case <code>RenderInfantryProne</code> and <code>RenderInfantryPanic</code>.  <code>RenderInfantry</code> now provides the required functionality. [#6224]</li>
+<li>Removed <code>RemoveImmediately</code> trait and replaced it with <code>KillsSelf</code>. [#6556]</li>
+<li>Removed the legacy Lua API. [#6786]</li>
+</ul>
+
+<p><strong>Map editor:</strong></p>
+
+<ul>
+<li>Fixed crashes when encountering unknown tile templates. [#6824]</li>
+</ul>
+
+<p><strong>Utility and Packaging</strong></p>
+
+<ul>
+<li>Fixed a crash when importing legacy maps. [#6143]</li>
+<li>Fixed breakage in the --png command. [#6847]</li>
+<li>Added a new <code>--generate-dps-table</code> command that will calculate damage per second data for each type of actor and export it to a .csv file. [#6534]</li>
+<li>Added a <code>utility.cmd</code> script for better usability of the command line tool on Windows. [#6764]</li>
+<li>Changed the crash-detection handling by moving it into external launchers. [#6791] </li>
+<li>Improved the OSX application package. [#6300, #6307, #6438, #6452]</li>
+<li>Removed the obsolete <code>--transpose</code> command from the utility program. [#6673]</li>
+</ul>
+
+<p>Changes from earlier releases can be found on the <a href="https://github.com/OpenRA/OpenRA/wiki/Historical-Changelogs">Historical Changelogs</a> page.</p>
