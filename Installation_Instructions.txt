@@ -1,0 +1,2 @@
+In make.cmd, run all version.
+Then click on launchgame.cmd
